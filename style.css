@@ -8,7 +8,10 @@ body {
   transform: translateY(-50%);
   text-align: center;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 
 .buttons{
   top: 70%;
