@@ -12,5 +12,32 @@ body {
 }
 
 .music{
-  
+  height: auto;
+  position: relative;
+  bottom: 220;
+  right: 350;
+}
+.merch{
+   height: auto;
+   position: relative;
+   bottom: 460px;
+   right: 280px;
+}
+.book{
+  height: auto;
+  position: relative;
+  bottom: 500px;
+  right: -260px;
+}
+
+.shows{
+  height: auto;
+  position: relative;
+  bottom: 630px;
+  right: 30px;
+}
+
+.buttons{
+  width: auto;
+
 }
