@@ -8,7 +8,13 @@ body {
   transform: translateY(-50%);
   text-align: center;
   display: block;
+}
 
+.buttons{
+  top: 70%;
+  position: absolute;
+  text-align: center;
+  display: block;
 }
 
 .music{
@@ -37,7 +43,13 @@ body {
   right: 30px;
 }
 
-.buttons{
+#buttons{
   width: auto;
+  position: relative;
+  text-align: center;
+}
 
+li{
+  display: inline;
+  padding: 50px;
 }
