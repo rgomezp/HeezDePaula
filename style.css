@@ -3,13 +3,14 @@ body {
 }
 
 .container{
+  padding-top: 90;
   top: 50%;
   position: relative;
   transform: translateY(-50%);
   text-align: center;
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 600;
 }
 
 
@@ -50,6 +51,11 @@ body {
   width: auto;
   position: relative;
   text-align: center;
+}
+
+.face{
+  position: absolute;
+  bottom: 150px;
 }
 
 li{
