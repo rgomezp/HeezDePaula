@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.container{
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+  display: block;
+
+}
+
+.music{
+  
+}
