@@ -9,16 +9,10 @@ body {
   transform: translateY(-50%);
   text-align: center;
   display: block;
-  height: 600;
+  max-height: 50%;
 }
 
 
-.buttons{
-  top: 70%;
-  position: absolute;
-  text-align: center;
-  display: block;
-}
 
 .music{
   height: auto;
@@ -46,10 +40,11 @@ body {
   right: 30px;
 }
 
-#buttons{
-  width: auto;
+.buttons{
   position: relative;
   text-align: center;
+  top: 22%;
+
 }
 
 .face{
