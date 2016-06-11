@@ -18,25 +18,25 @@ body {
   height: auto;
   position: relative;
   bottom: 220;
-  right: 350;
+  right: 330;
 }
 .merch{
    height: auto;
    position: relative;
    bottom: 460px;
-   right: 280px;
+   right: 270px;
 }
 .book{
   height: auto;
   position: relative;
   bottom: 500px;
-  right: -260px;
+  right: -240px;
 }
 
 .shows{
   height: auto;
   position: relative;
-  bottom: 630px;
+  bottom: 600px;
   right: 30px;
 }
 
