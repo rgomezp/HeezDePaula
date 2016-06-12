@@ -14,9 +14,6 @@ body {
 }
 
 */
-.flower{
-  text-align: center;
-}
 
 .thumbnail{
   border: hidden;
