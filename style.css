@@ -5,11 +5,9 @@ body {
 
 .container1{
   padding-top: 50;
-  top: 50%;
+  top: 20%;
   position: relative;
-  transform: translateY(-50%);
   text-align: center;
-  display: block;
   max-height: 50%;
 }
 
@@ -49,23 +47,17 @@ a, a:hover, a:focus, a:active {
 }
 
 .buttons{
-  /*padding-top: 50;
-  top: 30%;
-  position: relative;
-  transform: translateY(-50%);
-  text-align: center;
-  display: block;*/
   position: fixed;
-  top: 90%;
-  right: 0px;
+  top: 92%;
 }
 
 .face{
   position: absolute;
   bottom: 10px;
+  right: 10px;
 }
 
 li{
   display: inline;
-  padding: 20px;
+  padding: 30px;
 }
