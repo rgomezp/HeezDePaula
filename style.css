@@ -3,8 +3,8 @@ body {
 }
 
 
-.container{
-  padding-top: 90;
+.container1{
+  padding-top: 50;
   top: 50%;
   position: relative;
   transform: translateY(-50%);
@@ -49,18 +49,23 @@ a, a:hover, a:focus, a:active {
 }
 
 .buttons{
+  /*padding-top: 50;
+  top: 30%;
   position: relative;
+  transform: translateY(-50%);
   text-align: center;
-  right: 20px;
-  top: 22%;
+  display: block;*/
+  position: fixed;
+  top: 90%;
+  right: 0px;
 }
 
 .face{
   position: absolute;
-  bottom: 150px;
+  bottom: 10px;
 }
 
 li{
   display: inline;
-  padding: 50px;
+  padding: 20px;
 }
