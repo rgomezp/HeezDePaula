@@ -13,7 +13,10 @@ body {
   max-height: 50%;
 }
 
-
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 
 .thumbnail{
   border: hidden;
@@ -23,31 +26,32 @@ body {
   height: auto;
   position: relative;
   bottom: 220;
-  right: 330;
+  right: 360;
 }
 .merch{
    height: auto;
    position: relative;
    bottom: 460px;
-   right: 270px;
+   right: 320px;
 }
 .book{
   height: auto;
   position: relative;
   bottom: 500px;
-  right: -240px;
+  right: -260px;
 }
 
 .shows{
   height: auto;
   position: relative;
-  bottom: 600px;
+  bottom: 660px;
   right: 30px;
 }
 
 .buttons{
   position: relative;
   text-align: center;
+  right: 20px;
   top: 22%;
 }
 
