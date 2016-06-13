@@ -3,12 +3,8 @@ body {
 }
 
 .container1{
-  padding-top: 50;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  max-height: 50%;
+  max-width: 40%;
 }
 
 a, a:hover, a:focus, a:active {
@@ -21,27 +17,23 @@ a, a:hover, a:focus, a:active {
 }
 
 .music {
-  height: auto;
   position: relative;
-  bottom: 220;
-  right: 360;
+  bottom: 43%;
+  right: 24%;
 }
 
 .merch{
-   height: auto;
    position: relative;
-   bottom: 460px;
-   right: 320px;
+   bottom: 90%;
+   right: 21%;
 }
 .book{
-  height: auto;
   position: relative;
   bottom: 500px;
   right: -260px;
 }
 
 .shows{
-  height: auto;
   position: relative;
   bottom: 660px;
   right: 30px;
@@ -53,9 +45,9 @@ a, a:hover, a:focus, a:active {
 }
 
 .face{
-  position: absolute;
+  position: fixed;
   bottom: 10px;
-  right: 10px;
+  right: -50px;
 }
 
 li{
