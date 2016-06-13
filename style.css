@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-/*
+
 .container{
   padding-top: 90;
   top: 50%;
@@ -13,10 +13,7 @@ body {
   max-height: 50%;
 }
 
-*/
-.flower{
-  text-align: center;
-}
+
 
 .thumbnail{
   border: hidden;
