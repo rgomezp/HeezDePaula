@@ -304,7 +304,7 @@ html, body {
 }
 
 .showhover {
-  background: url(../img/face.jpg) repeat center center fixed;
+  background: url(../img/falls.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
