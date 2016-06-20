@@ -14,7 +14,7 @@ body {
 	background:#000;
 	margin:0 auto;
   color:#fff;
-  font-family: 'roboto';
+  font-family: 'Roboto';
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
 }
@@ -235,12 +235,6 @@ html, body {
   height: 100%;
 }
 
-.video-overlay .iframewrap .closevid {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 6;
-}
 
 /* main page */
 
@@ -348,6 +342,10 @@ a, a:hover, a:focus, a:active {
 .buttons{
   padding-top: 6%;
   text-align: center;
+}
+
+.buttons ul{
+  list-style-type: none;
 }
 
 .buttons li{
@@ -1146,7 +1144,7 @@ nav ul li a {
 .bit-events {
   font-family: 'tresregular', sans-serif !important;
   color:#fff;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .bit-rsvp {
