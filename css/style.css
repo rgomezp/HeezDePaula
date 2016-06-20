@@ -253,10 +253,8 @@ html, body {
 
 .mobiletitle h2 {
   visibility: hidden;
-  font-size: 80px;
-  font-weight: 300;
-  margin: 0px auto;
-  line-height: 50px;
+  font-size: 0px;
+  
 }
 
 .hoverbg {
