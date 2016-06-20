@@ -1,11 +1,10 @@
 body {
-  background-color: black;
+  background: black;
 }
 
-.container1{
-  position: relative;
-  max-width: 40%;
-}
+
+.img-container { position: relative;}
+
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -17,26 +16,26 @@ a, a:hover, a:focus, a:active {
 }
 
 .music {
-  position: relative;
-  bottom: 43%;
-  right: 24%;
+  position: absolute;
+  bottom: 28%;
+  right: 75%;
 }
 
 .merch{
-   position: relative;
-   bottom: 90%;
-   right: 21%;
+   position: absolute;
+   bottom: 60%;
+   right: 70%;
 }
 .book{
-  position: relative;
-  bottom: 500px;
-  right: -260px;
+  position: absolute;
+  bottom: 52%;
+  right: 20%;
 }
 
 .shows{
-  position: relative;
-  bottom: 660px;
-  right: 30px;
+  position: absolute;
+  bottom: 78%;
+  right: 50%;
 }
 
 .buttons{
@@ -46,7 +45,7 @@ a, a:hover, a:focus, a:active {
 
 .face{
   position: fixed;
-  bottom: 10px;
+  bottom: 25px;
   right: -50px;
 }
 
