@@ -19,6 +19,30 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top:6%;
+
+}
+
+.buttons ul{
+  list-style-type: none;
+}
+
+.buttons li{
+    display: inline;
+    padding: 30px;
+}
+
+
 /* loading page */
 
 html, body {
@@ -332,25 +356,6 @@ html, body {
 @keyframes animatedRain {
   from { background-position: 0 0; }
   to { background-position: 0 100%; }
-}
-
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
-.buttons{
-  padding-top: 6%;
-  text-align: center;
-}
-
-.buttons ul{
-  list-style-type: none;
-}
-
-.buttons li{
-    display: inline;
-    padding: 30px;
 }
 
 #demo {
