@@ -64,8 +64,8 @@ $('.merchnav').hover(function() {
   $('.merchhover').toggleClass('active');
 });
 
-$('.contactnav').hover(function() {
-  $('.contacthover').toggleClass('active');
+$('.shownav').hover(function() {
+  $('.showhover').toggleClass('active');
 });
 
 $('.signupnav').hover(function() {

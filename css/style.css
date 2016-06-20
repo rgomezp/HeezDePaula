@@ -303,8 +303,8 @@ html, body {
   animation: animatedBackground 40s linear infinite;
 }
 
-.contacthover {
-  background: url(../img/tearsbg.jpg) repeat center center fixed;
+.showhover {
+  background: url(../img/face.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
