@@ -60,7 +60,7 @@ $('.livenav').hover(function() {
   $('.livehover').toggleClass('active');
 });
 
-$('.merch').hover(function() {
+$('.merchnav').hover(function() {
   $('.merchhover').toggleClass('active');
 });
 
