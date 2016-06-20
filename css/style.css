@@ -252,6 +252,7 @@ html, body {
 }
 
 .mobiletitle h2 {
+  visibility: hidden;
   font-size: 80px;
   font-weight: 300;
   margin: 0px auto;
@@ -437,7 +438,6 @@ nav ul li a {
 }
 
 .mobilemenu_text {
-  font-size: 22px;
   position: absolute;
   top:20px;
   right:20px;
@@ -445,7 +445,7 @@ nav ul li a {
 }
 
 .mobilemenu_text h3 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: normal;
   margin:auto;
 }
