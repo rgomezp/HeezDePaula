@@ -254,7 +254,7 @@ html, body {
 .mobiletitle h2 {
   visibility: hidden;
   font-size: 0px;
-  
+
 }
 
 .hoverbg {
@@ -400,25 +400,6 @@ nav ul {
   padding:0px;
 }
 
-.gamelink {
-  position: absolute;
-  top:15px;
-  right:15px;
-}
-
-.gamelink img {
-  position: absolute;
-  width: 65px;
-  margin-left:-70px;
-  margin-top:-8px;
-}
-
-.gamelink a {
-  font-size: 60px;
-  color:#fff;
-  text-decoration: none;
-}
-
 nav ul li a {
   color:#fff;
   text-decoration: none;
@@ -432,7 +413,7 @@ nav ul li a {
   width: 100px;
   height: 100px;
   background: url(../img/mobilemenu.png) no-repeat center center fixed;
-  background-size: 100% auto;
+  background-size: 70% auto;
 }
 
 .mobilemenu_text {
