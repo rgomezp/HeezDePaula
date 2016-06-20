@@ -43,6 +43,7 @@ a, a:hover, a:focus, a:active {
 }
 
 
+
 /* loading page */
 
 html, body {
@@ -289,14 +290,14 @@ html, body {
 }
 
 .livehover {
-  background: url(../img/starsbg.gif) repeat center center fixed;
+  background: url(../img/weedbg.gif) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
 }
 
-.storehover {
-  background: url(../img/weedbg.jpg) repeat center center fixed;
+.merchhover {
+  background: url(../img/tees.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedBackground 40s linear infinite;
@@ -315,15 +316,9 @@ html, body {
   background-repeat: repeat;
 }
 
-.preorderhover {
-  background: url(../img/eyesbg.gif) repeat center center fixed;
-  background-position: 0px 0px;
-  background-repeat: repeat;
-  animation: animatedBackground 40s linear infinite;
-}
 
 .musichover {
-  background: url(../img/treesbg.jpg) repeat center center fixed;
+  background: url(../img/notes.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
