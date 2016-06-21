@@ -56,8 +56,8 @@ $(".closevid").click(function () {
     $(".iframewrap").removeClass('show');
 });
 
-$('.livenav').hover(function() {
-  $('.livehover').toggleClass('active');
+$('.booknav').hover(function() {
+  $('.bookhover').toggleClass('active');
 });
 
 $('.merchnav').hover(function() {

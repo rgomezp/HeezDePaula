@@ -289,8 +289,8 @@ html, body {
   transition: opacity .3s ease;
 }
 
-.livehover {
-  background: url(../img/weedbg.gif) repeat center center fixed;
+.bookhover {
+  background: url(../img/faces.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
@@ -304,7 +304,7 @@ html, body {
 }
 
 .showhover {
-  background: url(../img/faces.jpg) repeat center center fixed;
+  background: url(../img/moon.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
@@ -478,6 +478,14 @@ nav ul li a {
   -webkit-transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%)
+}
+
+.nav-left li{
+  padding: 35px;
+}
+
+.nav-right li{
+  padding: 35px;
 }
 
 .page {
