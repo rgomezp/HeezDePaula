@@ -42,6 +42,9 @@ a, a:hover, a:focus, a:active {
     padding: 30px;
 }
 
+.spotify-butt:hover{
+  background: url(../img/spotify2.jpg)
+}
 
 
 /* loading page */
