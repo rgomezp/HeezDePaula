@@ -297,14 +297,14 @@ html, body {
 }
 
 .merchhover {
-  background: url(../img/tees.jpg) repeat center center fixed;
+  background: url(../img/chuncherias.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedBackground 40s linear infinite;
 }
 
 .showhover {
-  background: url(../img/falls.jpg) repeat center center fixed;
+  background: url(../img/faces.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedRain 10s linear infinite;
@@ -463,7 +463,7 @@ nav ul li a {
 .nav-left {
   position: absolute;
   z-index: 2;
-  top:50%;
+  top:45%;
   left:20%;
   -webkit-transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
@@ -473,7 +473,7 @@ nav ul li a {
 .nav-right {
   position: absolute;
   z-index: 2;
-  top:50%;
+  top:45%;
   left:80%;
   -webkit-transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
