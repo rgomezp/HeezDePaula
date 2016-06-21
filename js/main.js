@@ -80,8 +80,28 @@ $('.musicnav').hover(function() {
   $('.musichover').toggleClass('active');
 });
 
-$('.gamelink').hover(function() {
-  $('.gamehover').toggleClass('active');
+$('.spotifynav').hover(function() {
+  $('.spotifyhover').toggleClass('active');
+});
+
+$('.soundcloudnav').hover(function() {
+  $('.soundcloudhover').toggleClass('active');
+});
+
+$('.instagramnav').hover(function() {
+  $('.instagramhover').toggleClass('active');
+});
+
+$('.youtubenav').hover(function() {
+  $('.youtubehover').toggleClass('active');
+});
+
+$('.twitternav').hover(function() {
+  $('.twitterhover').toggleClass('active');
+});
+
+$('.snapchatnav').hover(function() {
+  $('.snapchathover').toggleClass('active');
 });
 
 $('.carousel').flickity({

@@ -327,12 +327,48 @@ html, body {
   animation: animatedRain 10s linear infinite;
 }
 
-.gamehover {
-  background: url(../img/planesbg.gif) repeat center center fixed;
+.spotifyhover {
+  background: url(../img/spotify2.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedBackground 40s linear infinite;
 }
+
+.soundcloudhover {
+  background: url(../img/soundcloud2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedRain 10s linear infinite;
+}
+
+.instagramhover {
+  background: url(../img/instagram2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedRain 10s linear infinite;
+}
+
+.twitterhover {
+  background: url(../img/twitter2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedRain 10s linear infinite;
+}
+
+.youtubehover {
+  background: url(../img/youtube2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedRain 10s linear infinite;
+}
+
+.snapchathover {
+  background: url(../img/snapchat2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedBackground 40s linear infinite;
+}
+
 
 .active {
   opacity: 1;
