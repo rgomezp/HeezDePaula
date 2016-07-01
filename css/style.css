@@ -345,14 +345,14 @@ html, body {
   background: url(../img/instagram2.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
-  animation: animatedRain 10s linear infinite;
+  animation: animatedBackground 40s linear infinite;
 }
 
 .twitterhover {
   background: url(../img/twitter2.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
-  animation: animatedRain 10s linear infinite;
+  animation: animatedBackground 40s linear infinite;
 }
 
 .youtubehover {
@@ -366,7 +366,7 @@ html, body {
   background: url(../img/snapchat2.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
-  animation: animatedBackground 40s linear infinite;
+  animation: animatedRain 10s linear infinite;
 }
 
 
