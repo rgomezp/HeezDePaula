@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+
+.navbar-header{
+  background-color: black;
+}
+
+.navbar-default{
+  background-color: black;
+  border-color: black;
+}
+
+.nav a{
+  font-family: arial;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.social-buttons li{
+  display: inline;
+  padding: 10px;
+}
+
+.social-buttons .container{
+  text-align: center;.
+}
