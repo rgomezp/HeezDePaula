@@ -184,3 +184,63 @@ $("a.navhook").each(function() {
 $(document).ready(function() {
 
 //*--------------------- LIVE DATES ---------------------*//
+$.getJSON('http://api.songkick.com/api/3.0/artists/6699424/calendar/tourbox.json?apikey=FbIX8IFBqx68uuP1&jsoncallback=?', function(data){
+       // console.log(data);
+
+       $('#show-listings ul').addClass('load-dates');
+
+       var showbox = $('#show-listings');
+
+       var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+       var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+
+       $(data.resultsPage.results.performance).each(function(){
+
+           // console.log(this);
+
+           var c;
+           c = this.event.start.date; //gig date
+
+           var d = new Date(c);
+
+           var dayOfWeek = dayNames[d.getUTCDay()];
+           var day = d.getUTCDate();
+           var month = monthNames[d.getUTCMonth()];
+           var year = d.getUTCFullYear();
+
+           if(this.event.type === "Festival") {
+               var venue = '<span class="venue">' + this.event.displayName + '</span>';
+
+               var e = this.event.end.date;
+               var f = new Date(e);
+               var endDateDow = dayNames[f.getUTCDay()];
+               var endDateDay = f.getUTCDate();
+               var endDateMonth = monthNames[f.getUTCMonth()];
+               var endDateYear = f.getUTCFullYear();
+
+               if (day === endDateDay) {
+                   console.log(this);
+                   var fulldate = '<span class="date">' + dayOfWeek + ' ' + day + ' ' + month + ' ' + year + '</span>';
+               } else {
+                   var fulldate = '<span class="date">' + dayOfWeek + ' ' + day + ' ' + month + ' ' + year + ' - ' + endDateDow + ' ' + endDateDay + ' ' + endDateMonth + ' ' + endDateYear + '</span>';
+               }
+           } else {
+               var venue = '<span class="venue">' + this.event.venue.displayName + '</span>';
+               var fulldate = '<span class="date">' + dayOfWeek + ' ' + day + ' ' + month + ' ' + year + '</span>';
+           }
+
+           var location = '<span class="city">' + this.event.location.city + '</span>';
+
+
+           if(this.directTicketLink) {
+               var tickets = '<span class="ticket"><a href="' + this.directTicketLink + '" target="_blank">Tickets</a></span>';
+           } else {
+               var tickets = '<span class="ticket"><a href="' + this.event.uri + '" target="_blank">Tickets</a></span>';
+           }
+
+           $('#show-listings ul').append('<li class="date-row">' + fulldate + venue + location + tickets + '</li>');
+
+       });
+   });
+
+});
