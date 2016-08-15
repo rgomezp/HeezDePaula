@@ -80,6 +80,10 @@ $('.musicnav').hover(function() {
   $('.musichover').toggleClass('active');
 });
 
+$('.facebooknav').hover(function() {
+  $('.facebookhover').toggleClass('active');
+});
+
 $('.spotifynav').hover(function() {
   $('.spotifyhover').toggleClass('active');
 });

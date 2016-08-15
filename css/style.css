@@ -42,9 +42,10 @@ a, a:hover, a:focus, a:active {
     padding: 30px;
 }
 
+/*
 .spotify-butt:hover{
   background: url(../img/spotify2.jpg)
-}
+}*/
 
 
 /* loading page */
@@ -329,6 +330,13 @@ html, body {
 
 .spotifyhover {
   background: url(../img/spotify2.jpg) repeat center center fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedBackground 40s linear infinite;
+}
+
+.facebookhover {
+  background: url(../img/facebook2.jpg) repeat center center fixed;
   background-position: 0px 0px;
   background-repeat: repeat;
   animation: animatedBackground 40s linear infinite;
